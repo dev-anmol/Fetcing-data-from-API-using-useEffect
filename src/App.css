@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+  border: none;
+  text-align: center;
+  padding: 30px;
+  background-color: royalblue;
+}
+.header h1{
+  color: aliceblue;
+}
+.btn{
+  margin-top: 10px;
+  padding: 8px 30px;
+  height: fit-content;
+}
+.my-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.data{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(90, 122, 216);
+}
+
+ .data h4{
+  padding: 10px;
+ }
